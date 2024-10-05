@@ -1,0 +1,37 @@
+/* src/HeatmapTable.css */
+
+/* Tooltip Styles */
+.heatmap-tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 8px;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 4px;
+    pointer-events: none;
+  }
+  
+  /* Optional: Add some transition for smooth tooltip appearance */
+  .heatmap-tooltip {
+    transition: visibility 0.2s, opacity 0.2s;
+  }
+  
+  /* SVG Text Styling */
+  .skill-label,
+  .student-label {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+  }
+  
+  /* Optional: Add hover effect for student labels */
+  .student-label:hover {
+    fill: #555;
+  }
+  
+  /* Ensure the SVG container allows for proper scrolling if needed */
+  svg {
+    max-width: 100%;
+    height: auto;
+  }
+  

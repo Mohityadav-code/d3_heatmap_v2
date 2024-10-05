@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* src/HeatmapTable.css */
+
+.skill-label,
+.student-label {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.cell {
+  cursor: pointer;
+}
+
+.cell:hover {
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.cell-text {
+  font-family: Arial, sans-serif;
+  pointer-events: none;
+}
+
+
+
+/* src/App.css */
+.no-list-style {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
